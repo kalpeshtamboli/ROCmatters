@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Raleway-Bold;
+  src: url("./assets/Raleway-Bold.ttf");
+}
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url("./assets/Gilroy-Bold.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Light;
+  src: url("./assets/Poppins-Light.ttf");
+}
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("./assets/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: Poppins-MediumItalic;
+  src: url("/assets/Poppins-MediumItalic.ttf");
+}
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("/assets/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: Raleway-Regular;
+  src: url("/assets/Raleway-Regular.ttf");
+}
+/* @font-face {
+  font-family: myFont4;
+  src: url("./assets/");
+} */
+body {
+  font-family: Poppins-Regular;
+}
+
+.Registration_Section {
+  /* background-image: url("/assets/1x/Bg.jpg"); */
+  background: black;
+  overflow: hidden;
+  background: -webkit-linear-gradient(
+      rgba(22, 22, 24, 0.5),
+      rgba(39, 35, 36, 0.5)
+    ),
+    url("/assets/1x/Asset\ 34.png");
+  height: 90vh;
+
+  background-size: cover;
+}
+
+
+section {
+  background-color: #e1e0e0;
+
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* styling for navbar */
+nav{
+  background-color: #29285e;
+  padding: 10px;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  color: #29285e;
+}
+
+nav ul li:hover > ul {
+  display: inherit;
+}
+
+nav ul ul ul {
+  left: 80%;
+  top: 0%;
+}
+.icon_color {
+  color: #29285e;
+}
+
+
+
+/* styling for section */
+section > h1 {
+  font-size: 4.5rem;
+  color: #29285e;
+}
+
+.paragraph {
+  color: #29285e;
+}
+
+.square1 {
+  background-color: orange;
+}
+.pvt_Image1 {
+  z-index: 1;
+  left: 14%;
+}
+.square2 {
+  background-color: orange;
+}
+.pvt_Image2 {
+  z-index: 1;
+  left: 14%;
+}
+
+.square3 {
+  background-color: orange;
+}
+.pvt_Image3 {
+  z-index: 1;
+  left: 16%;
+}
+
+.left_for_Info > h1 {
+  color: #29285e;
+}
+
+.services {
+  color: #29285e;
+}
+
+
+.image_square {
+  background-color: orange;
+}
+.image {
+  z-index: 1;
+  left: 12%;
+}
+
+/* Add padding to containers */
+.form {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-10%, -10%);
+
+}
+/* Full-width input fields */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+#registerbtn{
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  color: white;
+  background-color: #29285e;
+  cursor: pointer;
+  width: 100%;
+}
+.button-class{
+  background-color: #29285e;
+  color:white;
+}
+
+footer {
+  background-color: #29285e;
+  color: white;
+}
+
+
+/* navbar for mobile device */
+@media (max-width: 768px) {
+  #menu-container {
+    display: none;
+  }
+  .mobile-menu-button {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-menu-button {
+    display: none;
+  }
+}
+
+
+/* slick animation code */

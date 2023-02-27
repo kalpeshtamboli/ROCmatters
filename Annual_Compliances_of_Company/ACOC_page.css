@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("/assets/Poppins-Regular.ttf");
+}
+.OPC_info>h1,section>h1{
+    color: #29285e;
+}
+body{
+  font-family: Poppins-Regular;
+}
+nav{
+    background-color: #29285e;
+  }
+/* for mobile navigation bar */
+nav {
+  background-color: #29285e;
+  padding: 10px;
+  
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  color: #29285e;
+}
+
+nav ul li:hover > ul {
+  display: inherit;
+}
+
+nav ul ul ul {
+  left: 80%;
+  top: 0%;
+}
+.icon_color {
+  color: #29285e;
+}
+
+
+  
+  footer {
+    background-color: #29285e;
+    color: white;
+  }
+ 
+  .image_square{
+    background-color: orange;
+  }
+  .image{
+    z-index: 1;
+      left:14%;
+    
+  }
+
+  article>h1,.benefits>h1{
+   color: #29285e;
+  }
